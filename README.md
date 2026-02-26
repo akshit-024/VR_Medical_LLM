@@ -27,6 +27,26 @@ Augmentation: horizontal/vertical flip, random rotation (±20°), class balancin
 React Frontend → Node.js Backend → Flask AI Server → Unreal Engine (WebSocket) → Pixel Streaming → Browser
 ```
 
+## 📁 Project Structure
+
+```
+├── MyProject7_vr_test/          # Unreal Engine 5 VR hospital project
+│   ├── Config/                  # Engine & input configs
+│   ├── Content/                 # Maps, assets, blueprints
+│   └── Source/                  # C++ source (WebSocket actor, sliding door, character)
+│
+├── VR-medical LLM/              # AI & web application
+│   ├── Breast_Cancer_Classfication-Segmentation/
+│   │   ├── app.py               # Flask inference server
+│   │   └── MERN/                # Full-stack web app
+│   │       ├── client/          # React frontend
+│   │       └── server/          # Node.js/Express backend (auth, routing)
+│   ├── dwn.py                   # Dataset download script
+│   └── requirements.txt         # Python dependencies
+│
+└── web socket/                  # WebSocket test scripts
+```
+
 ## 🧪 Models
 
 | Model | Task | Key Metric |
