@@ -1,0 +1,50 @@
+# Unreal Engine
+MyProject7_vr_test/Binaries/
+MyProject7_vr_test/Intermediate/
+MyProject7_vr_test/DerivedDataCache/
+MyProject7_vr_test/Saved/
+MyProject7_vr_test/Content/StarterContent/
+MyProject7_vr_test/Content/Characters/
+MyProject7_vr_test/Content/LevelPrototyping/
+MyProject7_vr_test/Content/Collections/
+MyProject7_vr_test/Content/Developers/
+MyProject7_vr_test/Content/__ExternalActors__/
+MyProject7_vr_test/Content/__ExternalObjects__/
+*.uasset
+
+# Python virtual env
+VR-medical LLM/keras/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ML model weights (large files)
+*.h5
+*.keras
+*.pth
+*.weights
+
+# Environment/secrets
+.env
+.env.*
+
+# Node modules
+node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Uploads / outputs
+VR-medical LLM/Breast_Cancer_Classfication-Segmentation/uploads/
+VR-medical LLM/Breast_Cancer_Classfication-Segmentation/outputs/
